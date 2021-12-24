@@ -1,10 +1,10 @@
 using System;
 using CleanArch.Application.ViewModels;
 
-namespace CleanArch.Application.Services;
+namespace CleanArch.Application.Interfaces;
 public interface ICourseService
 {
-    IEnumerable<CourseViewModel> GetCourses();
+    CourseViewModel GetCourses();
 }
 
 
