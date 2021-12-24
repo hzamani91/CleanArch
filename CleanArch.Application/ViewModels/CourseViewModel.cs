@@ -1,10 +1,10 @@
 using System;
 using CleanArch.Domain.Models;
 
-namespace CleanArch.Application.ViewModels
+namespace CleanArch.Application.ViewModels;
+
+public class CourseViewModel
 {
-    public class CourseViewModel
-    {
-        public IEnumerable<Course>  Courses { get; set; }
-    }
+    public IEnumerable<Course> Courses { get; set; }
 }
+
